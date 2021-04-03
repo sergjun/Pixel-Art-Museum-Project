@@ -1,0 +1,5 @@
+.header-border {
+  margin: auto;
+  display: block;
+  border: solid 3px black;
+}

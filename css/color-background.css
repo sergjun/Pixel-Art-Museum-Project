@@ -1,0 +1,20 @@
+.color-background {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 368px;
+  margin-right: 368px;
+  margin-top: 100px;
+  padding: 2%;
+  border-radius: 5px;
+  border: solid 2px black;
+}
+
+.text-background {
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.text-background-end {
+  color: black;
+  text-align: center;
+}

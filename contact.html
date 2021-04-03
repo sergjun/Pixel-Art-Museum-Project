@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,73 +7,34 @@
     <link rel="icon" href="img/akira-icon.png" />
     <link rel="shortcut icon" href="img/akira-icon.png" />
     <link rel="shortcut icon" type="image/png" href="img/akira-icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main-header.css" />
+    <link rel="stylesheet" href="css/main-pages.css" />
+    <link rel="stylesheet" href="css/main-nav.css" />
+    <link rel="stylesheet" href="css/main-background.css" />
+    <link rel="stylesheet" href="css/header-border.css" />
+    <link rel="stylesheet" href="css/main-title.css" />
 
     <title>Pixel Art Museum</title>
   </head>
+  <h1 class="main-title">Pixel Art Museum</h1>
   <header>
-    <table cellpadding="0" cellspacing="0" border="0" width="100%">
-      <tr>
-        <td align="center">
-          <h1>
-            <marquee
-              behavior="alternate"
-              direction="left"
-              scrollamount="6"
-              width="50%"
-            >
-            <font face="Lato" color="#ffffff"> Pixel Art Museum </font>
-            </marquee>
-          </h1>
-          <img src="img/header.gif" alt="menina brisando" border ="10" />
-        </td>
-      </tr>
-    </table>
+    <img
+      class="header-border"
+      src="img/header.gif"
+      alt="menina brisando em pixel art"
+    />
   </header>
-  <br />
-  <nav>
-    <h2 align="center">
-      <a href="index.html"> <font face="arial" color="#ffffff">Home</a></font> &nbsp; &nbsp;
-      <a href="artistas.html"><font face="arial" color="#ffffff">Artists</a></font> &nbsp; &nbsp;
-      <a href="about.html"><font face="arial" color="#ffffff">About</a></font> &nbsp; &nbsp;
-      <a href="contact.html"><font face="arial" color="#ffffff">Contact</a></font> &nbsp; &nbsp;
-    </h2>
+  <nav class="main-nav">
+    <a class="main-pages" href="index.html"> Home</a>
+    <a class="main-pages" href="artistas.html"> Artists</a>
+    <a class="main-pages" href="about.html"> About</a>
+    <a class="main-pages" href="artistas.html"> Contact</a>
   </nav>
-
-  <body background="img/background2.gif">
-    <br/>
-    <table  align ="center">
-      
-      <tr>
-        
-        <td> <font face="Lato" color="#ffffff" size="3">Name :</font>
-
-        </td>
-        <td>
-            <input type="text" placeholder="Name" name="">
-        </td>
-      </tr>
-      <tr>
-        <td><font face="Lato" color="#ffffff" size="3">Email :</font>
-
-        </td>
-        <td>
-            <input  type="mail" placeholder="example@example.com" Email="">
-        </td>
-      </tr>
-      <td><font face="Lato" color="#ffffff" size="3">Message :</font>
-
-      </td>
-      <td>
-      <textarea cols="30" rows="5"></textarea> &nbsp; &nbsp
-      <td>
-        
-        <button>Send</button></td>
-
-    </td>
-  
-    
-          
-   </table>
-
-  </body>
+  <body class="main-background"></body>
 </html>
