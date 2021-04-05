@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/akira-icon.png" />
-    <link rel="shortcut icon" href="img/akira-icon.png" />
-    <link rel="shortcut icon" type="image/png" href="img/akira-icon.png" />
+    <link rel="icon" href="img/icon.gif" />
+    <link rel="shortcut icon" href="img/icon.gif" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.gif" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
@@ -17,24 +17,40 @@
     <link rel="stylesheet" href="css/main-pages.css" />
     <link rel="stylesheet" href="css/main-nav.css" />
     <link rel="stylesheet" href="css/main-background.css" />
-    <link rel="stylesheet" href="css/header-border.css" />
     <link rel="stylesheet" href="css/main-title.css" />
+    <link rel="stylesheet" href="css/main-background.css" />
+    <link rel="stylesheet" href="css/form-contact.css" />
+    <link rel="stylesheet" href="css/color-background.css" />
 
     <title>Pixel Art Museum</title>
   </head>
   <h1 class="main-title">Pixel Art Museum</h1>
   <header>
     <img
-      class="header-border"
+      class="main-background"
       src="img/header.gif"
       alt="menina brisando em pixel art"
     />
   </header>
   <nav class="main-nav">
     <a class="main-pages" href="index.html"> Home</a>
-    <a class="main-pages" href="artistas.html"> Artists</a>
+    <a class="main-pages" href="artists.html"> Artists</a>
     <a class="main-pages" href="about.html"> About</a>
-    <a class="main-pages" href="artistas.html"> Contact</a>
+    <a class="main-pages" href="contact.html"> Contact</a>
   </nav>
-  <body class="main-background"></body>
+  <body class="background-gif" alt="ceu estrelado em pixel art">
+    <div class="color-background">
+      <div class="form-contact">
+        <input class="input-contact" type="text" placeholder="Name" />
+        <input class="input-contact" type="email" placeholder="Email" />
+      </div>
+      <div class="textarea-wrapper">
+        <textarea
+          class="textarea-contact"
+          placeholder="Write your message"
+        ></textarea>
+      </div>
+      <button class="button-contact">Send</button>
+    </div>
+  </body>
 </html>

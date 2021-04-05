@@ -1,0 +1,49 @@
+.form-contact {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  justify-content: space-evenly;
+}
+
+.input-contact {
+  height: 30px;
+  border: 2px solid black;
+
+  font-weight: bold;
+}
+
+.textarea-contact {
+  border: 2px solid black;
+  width: 345px;
+  height: 229px;
+  font-weight: bold;
+}
+
+.textarea-wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.button-contact {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 2px black;
+  font-family: "Press Start 2P", cursive;
+  size: 2px;
+}
+
+.button-contact:hover {
+  transform: scale(1.08);
+  box-shadow: none;
+  font-family: "Press Start 2P", cursive;
+  color: #0065c6;
+  cursor: pointer;
+}

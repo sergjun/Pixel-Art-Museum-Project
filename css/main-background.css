@@ -1,3 +1,10 @@
 .main-background {
+  margin: auto;
+  display: block;
+  border: solid 3px black;
+}
+
+.background-gif {
   background-image: url(../img/background2.gif);
+  margin-bottom: 50px;
 }
