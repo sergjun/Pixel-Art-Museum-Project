@@ -2,6 +2,7 @@
   margin: auto;
   display: block;
   border: solid 3px black;
+  border-radius: 20px;
 }
 
 .background-gif {
